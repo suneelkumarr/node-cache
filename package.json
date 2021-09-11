@@ -1,0 +1,27 @@
+{
+  "name": "sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "axios-cache-adapter": "^2.7.3",
+    "cache-manager": "^3.4.4",
+    "cachios": "^3.0.0",
+    "express": "^4.17.1",
+    "express-cache-controller": "^1.1.0",
+    "express-cache-headers": "^0.1.4",
+    "memory-cache": "^0.2.0",
+    "node-cache": "^5.1.2",
+    "node-fetch": "^2.6.2",
+    "node-fetch-cache": "^3.0.3"
+  }
+}
